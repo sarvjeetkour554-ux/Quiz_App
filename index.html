@@ -1,0 +1,2304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="demo3.css">
+</head>
+<body>
+
+    <div class="home">
+    <h1>Welcome Quiz App</h1>
+    
+    <div class="main-div">
+        <div class="topic-card">
+            <h2 style="color:  #B0CE88;"><u>Topic 1</u></h2>
+            <h3><b>HTML</b></h3>
+            <P>Test your knowledge, challenge yourself, and see how much you know about this topic!.Ready to test yourself? Take the quiz and find out your score!</P>
+            <button class="topic-button"  data-topic="html">Start quiz →</button>
+        </div>
+
+        <div class="topic-card">
+             <h2 style="color:  #B0CE88;"><u>Topic 2</u></h2>
+            <h3><b>CSS</b></h3>
+            <P>Test your knowledge, challenge yourself, and see how much you know about this topic!.Ready to test yourself? Take the quiz and find out your score!</P>
+            <button class="topic-button" data-topic="css">Start quiz →</button>
+        </div>
+        <div class="topic-card">
+             <h2 style="color:  #B0CE88;"><u>Topic 3</u></h2>
+            <h3><b>JavaScript</b></h3>
+            <P>Test your knowledge, challenge yourself, and see how much you know about this topic!.Ready to test yourself? Take the quiz and find out your score!</P>
+            <button class="topic-button" data-topic="javascript">Start quiz →</button>
+        </div>
+        <div class="topic-card">
+             <h2 style="color:  #B0CE88;"><u>Topic 4</u></h2>
+            <h3><b>Java</b></h3>
+            <P>Test your knowledge, challenge yourself, and see how much you know about this topic!.Ready to test yourself? Take the quiz and find out your score!</P>
+            <button class="topic-button" data-topic = "java">Start quiz →</button> </div>
+        <div class="topic-card">
+             <h2 style="color:  #B0CE88;"><u>Topic 5</u></h2>
+            <h3><b>C++</b></h3>
+            <P>Test your knowledge, challenge yourself, and see how much you know about this topic!.Ready to test yourself? Take the quiz and find out your score!</P>
+            <button class="topic-button" data-topic="cpp">Start quiz →</button>
+        </div>
+        <div class="topic-card">
+             <h2 style="color:   #B0CE88;"><u>Topic 6</u></h2>
+            <h3><b>Python</b></h3>
+            <P>Test your knowledge, challenge yourself, and see how much you know about this topic!.Ready to test yourself? Take the quiz and find out your score!</P>
+            <button class="topic-button"  data-topic="python">Start quiz →</button> 
+        </div>
+
+    </div>
+    </div>
+
+
+<!--start of html quiz -->
+    <div class="html-quiz">
+    <div class="quiz">
+        <h3 class = "question-number "style="font-size: 2rem; ">Question 1 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">how does HTML stand for</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>Hyper Text Markup Language</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>High Text Machine Language</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>Hyperlink Text Markup Language</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>Home Text Markup Language</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            
+            <button type = "button" class="next" style="margin-left: 60rem;">Next →</button>
+        </div>
+    </div>
+<!--quiz 2 -->
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 2 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> Which of the following elements in HTML5 defines video or movie content?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span> &lt;video&gt; </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span> &lt;movie&gt; </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span> &lt;audio&gt; </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span> &lt;media&gt;< </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz2 -->
+    
+
+    <!--quiz 3 -->
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 3 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> Which element is used for or styling HTML5 layout?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span> CSS </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span> jQuery </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span>  JavaScript </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span> PHP</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 3 -->
+
+    <!--quiz 4 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 4 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> HTML is a subset of ___________</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span> SGMT </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span> SGML</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span>  SGME </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span>  XHTML</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 4 -->
+
+     <!--quiz 5 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 5 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">  Which of the following extension is used to save an HTML file?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span> .hl </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span>  .h</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span>  .htl </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span>  .html </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 5 -->
+
+    <!--quiz 6 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 6 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">  Which attribute specifies a unique alphanumeric identifier to be associated with an element?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span> type</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span>  article</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span>   id </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span>  class </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 6 -->
+
+    <!--quiz 7 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 7 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> Which of the following is an HTML specification used to add more information to HTML tags?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span> Modifydata</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span>  Minidata</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span>   Macrodata</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span>  Microdata </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 7 -->
+
+    <!--quiz 8 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 8 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">  Which tag is used to create a numbered list in HTML?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span> &lt;ul&gt;</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span>  &lt;ol&gt; </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span>   &lt;li&gt;</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span>  &lt;ll&gt; </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 8 -->
+
+    
+    <!--quiz 9 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 9 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">  Which tag is used to create a dropdown in HTML Form?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span> &lt;input&gt;</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span>  &lt;select&gt; </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span>   &lt;text&gt;</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span>  &lt;textarea&gt; </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 9 -->
+
+    
+    <!--quiz 10 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 10 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">  Which HTML element is used for abbreviation or acronym?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span> &lt;abbr&gt;</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span>  &lt;blockquote&gt; </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span>   &lt;q&gt;</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span>  &lt;em&gt; </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Submit</button>
+        </div>
+    </div>
+    <!--end quiz 10 -->
+ </div>
+ </div>
+ <!--end of html quiz-->
+
+ <!--start of CSS quiz -->
+   <div class="css-quiz">
+    <div class="quiz">
+        <h3 class = "question-number "style="font-size: 2rem; ">Question 1 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">What is CSS?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>CSS is a style sheet language</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>CSS is designed to separate the presentation and content, including layout, colors, and fonts</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>CSS is the language used to style the HTML documents</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>All of the mentioned</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            
+            <button type = "button" class = "next" style="margin-left: 60rem;">Next →</button>
+        </div>
+    </div>
+<!--quiz 2 -->
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 2 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> Which of the following CSS selectors are used to specify a group of elements?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span>  tag </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span>id </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span> class </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span> both class and tag </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz2 -->
+    
+
+    <!--quiz 3 -->
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 3 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> Which of the following has introduced text, list, box, margin, border, color, and background properties?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span> HTML </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span> PHP </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span>  CSS </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span> Ajax</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 3 -->
+
+    <!--quiz 4 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 4 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> Which of the following CSS framework is used to create a responsive design?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span> django </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span> rails</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span>  larawell </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span>  bootstrap</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 4 -->
+
+     <!--quiz 5 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 5 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> which of the following CSS property is used to make the text bold?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span> text-decoration: bold</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span>   font-weight: bold</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span>  font-style: bold </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span>  text-align: bold </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 5 -->
+
+    <!--quiz 6 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 6 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">  What will be the output of following CSS code snippet?<br>
+
+ h1 {color: "green";}</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span> nothings happen</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span>  error occurs</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span>   heading becomes dark-green </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span>  heading becomes green </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 6 -->
+
+    <!--quiz 7 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 7 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> Which of the following CSS style property is used to specify an italic text?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span> style</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span>  font</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span>   font-style</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span>   @font-face </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 7 -->
+
+    <!--quiz 8 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 8 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">   What will be the output of following CSS code snippet?<br>
+
+h1 {color: red text-decoration: underline; font-style: italic;}</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span> color: red, text-decoration: underline works</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span> only font-style: italic works </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span>    color: red, text-decoration: underline and font-style: italic all works</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span>  text-decoration: underline and font-style: italic works </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 8 -->
+
+    
+    <!--quiz 9 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 9 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">  which of the following CSS property can be used to set the image as a border instead of the border style?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span> background-image-source</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span> background-image </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span>   border-image-source</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span>  border-image </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 9 -->
+
+    
+    <!--quiz 10 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 10 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">  Which of the following is not the property of the CSS box model?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span> margin</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span>  width </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span>   color</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span>  height </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class="next">Submit</button>
+        </div>
+    </div>
+    <!--end quiz 10 -->
+ </div>
+</div>
+ <!--end of CSS quiz-->
+
+
+ <!--start of javascript quiz -->
+   <div class="javascript-quiz">
+    <div class="quiz">
+        <h3 class = "question-number "style="font-size: 2rem; ">Question 1 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">What is JavaScript?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>JavaScript is a  scripting language used to make the website interactive</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>JavaScript is an assembly language used to make the website interactive</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>JavaScript is a compiled language used to make the website interactive</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>None of the mentioned</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            
+            <button type = "button" class = "next" style="margin-left: 60rem;">Next →</button>
+        </div>
+    </div>
+<!--quiz 2 -->
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 2 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> What will be the output of the following JavaScript code snippet?
+            <br>
+
+<pre style="color: #F7EAE0;">
+&lt;p id="demo"&gt;&lt;/p&gt;
+var txt1 = "Sanfoundry_";
+var txt2 = "Javascriptmcq";
+document.getElementById("demo").innerHTML = txt1 + txt2;
+</pre>
+
+</p>
+ <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span>   error </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span>Sanfoundry_ Javascriptmcq </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span> undefined </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span> Sanfoundry_Javascriptmcq </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz2 -->
+    
+
+    <!--quiz 3 -->
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 3 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">  What will be the output of the following JavaScript code?
+<br>
+<pre style="color: #F7EAE0;">
+&lt;p id="demo"&gt;&lt;/p&gt;
+
+&lt;script&gt;
+var js = 10;
+js *= 5;
+document.getElementById("demo").innerHTML = js;
+&lt;/script&gt;
+</pre>
+</script></p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span> 10 </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span>  50 </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span>  5 </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span>  Error</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 3 -->
+
+    <!--quiz 4 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 4 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> Arrays in JavaScript are defined by which of the following statements?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span>  It is an ordered list of values </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span>  It is an ordered list of objects</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span>  It is an ordered list of string </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span>   It is an ordered list of functions</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 4 -->
+
+     <!--quiz 5 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 5 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">  What will be the output of the following JavaScript code?
+<br>
+// JavaScript Comparison Operators
+function compare()
+{
+    let a=2;
+    let b=2.0;
+    if(a==b)
+        return true;
+    else
+        return false;
+}</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span> false</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span>   true</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span> compilation error</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span>  runtime error </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 5 -->
+
+    <!--quiz 6 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 6 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">   Will the following JavaScript code work?<br>
+
+var js = (function(x) {return x*x;}(10));
+
+        </p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span>  Exception will be thrown</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span>  Memory leak</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span>  Error</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span>  Yes, perfectly </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 6 -->
+
+    <!--quiz 7 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 7 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> Which of the following is not javascript data types?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span> Null type</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span>  Undefined type</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span>   Number type</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span>   All of the mentioned </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 7 -->
+
+    <!--quiz 8 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 8 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> What will be the output of the following JavaScript code snippet?<br>
+
+int a=1;
+if(a!=null) // JavaScript not equal to Operators
+    return 1;
+else
+    return 0;</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span> 0</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span> 1 </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span>    compiler error</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span>  runtime error </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 8 -->
+
+    
+    <!--quiz 9 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 9 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">  Which of the following object is the main entry point to all client-side JavaScript features and APIs?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span> Position</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span> Window </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span>   Standard</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span>  Location </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 9 -->
+
+    
+    <!--quiz 10 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 10 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">  What will be the output of the following JavaScript program? <br>
+
+function sanfoundry(javascript)
+{
+	return (javascript ?  “yes” :  “no”);
+}
+	bool ans=true;
+console.log(sanfoundry(ans));</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span> Compilation error</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span>  Runtime error </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span>   Yes</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span>  No </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class="next">Submit</button>
+        </div>
+    </div>
+    <!--end quiz 10 -->
+ </div>
+</div>
+ <!--end of javascript quiz-->
+
+ 
+<!--start of java  quiz -->
+    <div class="java-quiz">
+    <div class="quiz">
+        <h3 class = "question-number "style="font-size: 2rem; ">Question 1 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> Who invented  Java Programming?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>Guido van Rossum</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>James Gosling</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>Dennis Ritchie</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>Bjarne Stroustrup</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            
+            <button type = "button" class="next" style="margin-left: 60rem;">Next →</button>
+        </div>
+    </div>
+<!--quiz 2 -->
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 2 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> Which component is used to compile, debug and execute the java programs?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span>JRE</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span> JIT</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span> JDK</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span> JVM </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz2 -->
+    
+
+    <!--quiz 3 -->
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 3 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> Which one of the following is not a Java feature?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span>Object-oriented</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span> Use of pointers </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span>  Portable </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span>Dynamic and Extensible</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 3 -->
+
+    <!--quiz 4 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 4 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> What will be the output of the following Java code?
+            <br>
+
+    class increment {
+        public static void main(String args[]) 
+        {        
+             int g = 3;
+             System.out.print(++g * 8);
+        } 
+    }</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span> 32</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span> 33</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span>  24 </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span>  25</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 4 -->
+
+     <!--quiz 5 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 5 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> Which environment variable is used to set the java path?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span> MAVEN_Path</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span>   JavaPATH</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span>  JAVA </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span> JAVA_HOME</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 5 -->
+
+    <!--quiz 6 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 6 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> What will be the output of the following Java program?
+<br>
+    class variable_scope 
+    {
+        public static void main(String args[]) 
+        {
+            int x;
+            x = 5;
+            {
+	        int y = 6;
+	        System.out.print(x + " " + y);
+            }
+            System.out.println(x + " " + y);
+        } 
+    }
+</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span> Compilation error</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span>  Runtime error</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span>  5 6 5 6 </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span>  5 6 5 </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 6 -->
+
+    <!--quiz 7 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 7 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">  What will be the error in the following Java code? JavaCoding Challenges
+<br>
+    byte b = 50;
+    b = b * 50;</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span> b cannot contain value 50</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span>  b cannot contain value 100, limited by its range</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span>  No error in this code</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span>  * operator has converted b * 50 into int, which can not be converted to byte without casting</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 7 -->
+
+    <!--quiz 8 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 8 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">  What will be the output of the following Java program? JavaCoding Challenges
+<br>
+   class Output
+   {
+       public static void main(String args[])
+       {
+           int arr[] = {1, 2, 3, 4, 5};
+           for ( int i = 0; i < arr.length - 2; ++i)
+               System.out.print(arr[i] + " ");
+       }
+   }</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span> 1 2 3 4 5</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span>  1 2 3 4 </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span>   1 2</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span>  1 2 3 </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 8 -->
+
+    
+    <!--quiz 9 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 9 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> What will be the output of the following Java code snippet?
+<br>
+class abc
+{
+    public static void main(String args[])
+    {
+        if(args.length>0)
+        System.out.println(args.length);
+    }
+}</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span> The snippet compiles and runs but does not print anythin</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span>  The snippet compiles, runs and prints 0 </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span>   The snippet compiles, runs and prints 1</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span>  The snippet does not compile</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 9 -->
+
+    
+    <!--quiz 10 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 10 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">  What will be the output of the following Java code?
+<br>
+    class String_demo 
+    {
+        public static void main(String args[])
+        {
+            char chars[] = {'a', 'b', 'c'};
+            String s = new String(chars);
+            System.out.println(s);
+        }
+   }</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span> abc</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span>  a </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span>  b </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span>  c </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Submit</button>
+        </div>
+    </div>
+    <!--end quiz 10 -->
+ </div>
+ </div>
+ <!--end of java quiz-->
+
+ <!--start of c++  quiz -->
+    <div class="cpp-quiz">
+    <div class="quiz">
+        <h3 class = "question-number "style="font-size: 2rem; ">Question 1 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">What is C++?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>C++ is an object oriented  programming language</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>C++ is a procedural programming language</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>C++ supports both procedural and object oriented programming language</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>C++ is a functional programming language</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+           
+            <button type = "button" class="next"  style="margin-left: 60rem;">Next →</button>
+        </div>
+    </div>
+<!--quiz 2 -->
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 2 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> Which of the following is the correct syntax of including a user defined header files in C++?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span> #include [userdefined] </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span> #include 'userdefined' </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span>  #include &lt;<userdefined.h>&gt; </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span> #include  &lt;<userdefined>&gt;< </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz2 -->
+    
+
+    <!--quiz 3 -->
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 3 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> Which of the following extension is used for user-defined header file in c++?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span> hg </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span>  cpp</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span>  h </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span> hf</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 3 -->
+
+    <!--quiz 4 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 4 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> Which of the following is a correct identifier in C++?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span> VAR_1234 </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span> $var_name</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span>  7VARNAME </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span> 7var_name</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 4 -->
+
+     <!--quiz 5 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 5 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> Which of the following approach is used by C++?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span>Left-right </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span>  Right-left</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span>  Bottom-up </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span> Top-down </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 5 -->
+
+    <!--quiz 6 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 6 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> What happens if the following C++ statement is compiled and executed?<br>
+
+int *ptr = NULL;
+delete ptr;</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span>The program is not semantically correct</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span>   The program is compiled and executed successfully</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span>   The program gives a compile-time error </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span>  The program compiled successfully but throws an error during run-time </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 6 -->
+
+    <!--quiz 7 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 7 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">  What will be the output of the following C++ code?<br>
+
+#include <iostream> <br>
+#include <string>   <br>
+using namespace std;  <br> 
+int main(int argc, char const *argv[])   <br>
+{
+	char s1[6] = "Hello"; <br>
+	char s2[6] = "World";  <br>
+	char s3[12] = s1 + " " + s2;   <br>
+	cout<<s3;    <br>
+	return 0;  <br>
+}</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span>  Hello</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span>  World</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span>   Error</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span>  Hello World </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 7 -->
+
+    <!--quiz 8 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 8 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">  What happens if the following program is executed in  C and C++?  <br>
+
+#include <stdio.h>   <br>
+int main(void)   <br>
+{ 
+	int new = 5;  <br>
+	printf("%d", new);   <br>
+}</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span>Error in C and successful execution in C++</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span>  Error in both C and C++ </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span>   Error in C++ and successful execution in C</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span>  A successful run in both C and C++ </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 8 -->
+
+    
+    <!--quiz 9 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 9 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">  Which of the following type is provided by C++ but not C?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span> double</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span> float </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span>   int</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span>  bool</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 9 -->
+
+    
+    <!--quiz 10 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 10 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> What will be the output of the following C++ function? <br>
+
+    int main()  <br>
+    {
+        register int i = 1; <br>
+        int *ptr = &i;   <br>
+        cout << *ptr;  <br>
+	return 0;   <br>
+    }</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span> Runtime error may be possible</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span> Compiler error may be possible </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span>   1</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span>  0 </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Submit</button>
+        </div>
+    </div>
+    <!--end quiz 10 -->
+ </div>
+ </div>
+ <!--end of c++ quiz-->
+
+ <!--start of python quiz -->
+    <div class="python-quiz">
+    <div class="quiz">
+        <h3 class = "question-number "style="font-size: 2rem; ">Question 1 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">Which type of Programming does Python support?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>object-oriented  programming</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>structured programming</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>functional programming</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer1">
+        <span>all of the mentioned</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+           
+            <button type = "button" class="next" style="margin-left: 60rem;">Next →</button>
+        </div>
+    </div>
+<!--quiz 2 -->
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 2 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> Which of the following is the correct extension of the Python file?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span> .python </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span>.pl </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span> .py </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer2">
+        <span> .p</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz2 -->
+    
+
+    <!--quiz 3 -->
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 3 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> What will be the value of the following Python expression?  <br>
+
+print(4 + 3 % 5)</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span>7 </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span>2 </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span>  4 </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer3">
+        <span> 1</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 3 -->
+
+    <!--quiz 4 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 4 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> What will be the output of the following Python code? <br>
+
+i = 1  <br>
+while True:  <br>
+    if i%3 == 0:   <br>
+        break   <br>
+    print(i)    <br>
+ 
+    i + = 1</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span> 1 2 3 </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span> SyntaxError</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span> 1 2 </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer4">
+        <span>  none of the mentioned</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 4 -->
+
+     <!--quiz 5 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 5 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">   What will be the output of the following Python code snippet if x=1?  <br>
+
+x<<2</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span> 4 </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span>  2</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span>  1 </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer5">
+        <span> 8 </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 5 -->
+
+    <!--quiz 6 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 6 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">  What are the values of the following Python expressions?  <br>
+
+print(2**(3**2))  <br>
+print((2**3)**2)   <br>
+print(2**3**2)</p>   <br>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span>512, 64, 512</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span>   512, 512, 512</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span>   64, 512, 64 </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer6">
+        <span>   64, 64, 64 </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 6 -->
+
+    <!--quiz 7 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 7 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;"> Which of the following functions is a built-in function in python?</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span> factorial()</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span>  print()</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span>   seed()</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer7">
+        <span>   sqrt() </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 7 -->
+
+    <!--quiz 8 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 8 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">  The following python program can work with ____ parameters. <br>
+
+def f(x):  <br>
+    def f1(*args, **kwargs): <br>
+           print("Sanfoundry")  <br>
+           return x(*args, **kwargs)   <br>
+    return f1</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span>  any number of</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span>  0 </span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span>   1</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer8">
+        <span> 2</span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 8 -->
+
+    
+    <!--quiz 9 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 9 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">  What will be the output of the following Python function? Pythonprogramming courses  <br>
+
+print(min(max(False,-3,-4), 2,7))</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span>-4</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span>  -3</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span>  2</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer9">
+        <span>  False </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Next →</button>
+        </div>
+    </div>
+    <!--end quiz 9 -->
+
+    
+    <!--quiz 10 --> 
+     <div class="quiz">
+        <h3 class = "question-number" style="font-size: 2rem; ">Question 10 of 10</h3>
+        <p style="font-size: 2rem; margin-top: 3rem;">  What will be the output of the following Python expression if x=56.236?  <br>
+
+print("%.2f"%x)</p>
+        <div class="options">
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span> 56.236</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span>  56.23</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span>   56.0000</span>
+    </div>
+
+    <div class="option">
+        <input type="radio" name="answer10">
+        <span>  56.24 </span>
+    </div>
+
+</div>
+        <div class="quiz-button">
+            <button  type = "button" class="previous">← Previous</button>
+            <button type = "button" class = "next">Submit</button>
+        </div>
+    </div>
+    <!--end quiz 10 -->
+ </div>
+ </div>
+ <!--end of python quiz-->
+
+
+    <!--result page-->
+    <div class = "result">
+        <h2 style="color: #F7EAE0 ; font-size: 2rem;"> Your Score </h2>
+        <div class="result-circle">
+            <span id = "score">0/10</span>
+        </div>
+    </div>
+    
+</body>
+<script src="demo3.js"></script>
+</html>
